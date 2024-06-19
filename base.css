@@ -394,13 +394,16 @@ body {
   margin-bottom: 300px;
 }
 .companyWrap{
-  
+  display: flex;
 }
 .companyList{
    display: flex;
    flex-flow: column;
    justify-content: space-between;
    margin: 10px;
+   background-image: url(image/bg01.jpg);
+   background-size: cover;
+   width: 50%;
 }
 
 .companyList tr{
@@ -423,6 +426,9 @@ width: 100%;
 
 .companyList p{
    color: #333;
+}
+.serviceImg1{
+  width: 50%;
 }
 
 #footer{
