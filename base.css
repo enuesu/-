@@ -53,6 +53,12 @@ html{
 body {
    background-color: #f5f5f5;
  }
+
+ img{
+  max-width: 100%;
+  height: auto;
+  }
+
   header {
    position: fixed;
    z-index: calc(infinity);
@@ -387,7 +393,7 @@ body {
    margin: 0 0 1.5rem;
 }
 .sub p{
-   color: black;
+   color: #333;
 }
 
 #companyInfo{
@@ -395,15 +401,24 @@ body {
 }
 .companyWrap{
   display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.cImg{
+  width: 100%;
+  height: auto;
+  flex: 1;
 }
 .companyList{
    display: flex;
    flex-flow: column;
    justify-content: space-between;
-   margin: 10px;
+   margin-right: 10px;
    background-image: url(image/bg01.jpg);
    background-size: cover;
-   width: 50%;
+   width: 100%;
+   height: auto;
+   flex: 1;
 }
 
 .companyList tr{
