@@ -511,7 +511,7 @@ width: 100%;
   color: #00F;
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 768px) {
     .OurServiceList {
         width: 100%;
         height: 100%;
@@ -532,6 +532,6 @@ width: 100%;
 
 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 412px) {
 	
 }
