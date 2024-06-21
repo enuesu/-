@@ -76,10 +76,10 @@ body {
    justify-content: space-between;
    padding: 2rem 2.5rem;
  }
-  header .wrap ul {
+  .menuList {
    display: flex;
  }
-  header .wrap ul li a {
+.menuList li a {
    margin-left: 20px;
    text-decoration: none;
    color: rgba(0, 0, 0, 0.87);
