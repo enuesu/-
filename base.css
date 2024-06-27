@@ -526,7 +526,7 @@ width: 100%;
   display: flex;
   flex-flow: column;
   align-items: center;
-  padding: 5% 10%;
+  padding: 5% 6%;
 }
 
 .mainwid h1{
@@ -565,9 +565,7 @@ width: 100%;
   padding: 20px 20px;
   gap: 3%;
 }
-.news-list .item:first-child a{
-  border-top: 1px solid #CCC;
-}
+
 .news-list .item .date{
   margin-right: 5px;
   font-size: 16px;
@@ -576,14 +574,10 @@ width: 100%;
 .news-list .item .category{
   padding-right: 10px;
 }
-.news-list .item .category span{
-  background: #999;
-  color: #FFF;
+.news-list .item .category span{ 
   text-align: center;
-  display: inline-block;
-  padding: 5px 20px;
   font-size: 12px;
-  line-height: 1;
+  font-weight: bold;
 }
 .news-list .item .title{
   margin: 0;
