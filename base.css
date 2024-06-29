@@ -506,6 +506,23 @@ width: 100%;
   position: absolute;
   bottom: 0;
   left: 0;
+  display: flex;
+}
+.contentList{
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+
+.menuList{
+  display: flex;
+  justify-content: space-between;
+}
+
+.ServiceLlst{
+  border: solid 1px #ffffff;
+  display: flex;
+  justify-content: space-between;
 }
 
 .h1div{
