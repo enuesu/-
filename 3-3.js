@@ -17,9 +17,9 @@ document.addEventListener("DOMContentLoaded", function() {
     // フェードイン効果を追加
     setTimeout(() => {
         document.querySelector('.topTxt').classList.add('fade-in');
-    }, 2000); // 2秒後にフェードイン
+    }, 1000); // 1秒後にフェードイン
 
     setTimeout(() => {
         document.querySelector('header').classList.add('header-fade-in');
-    }, 3000); // 3秒後にフェードイン
+    }, 2000); // 2秒後にフェードイン
 });
